@@ -1,20 +1,12 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
-/*
-	Directive by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
-
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		font:Nunito;
 		vertical-align: baseline;
 	}
 
@@ -55,6 +47,95 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+	/*============navbar=============*/
+.navbar{
+	margin-top: -2px;
+	position: fixed;
+	z-index: 10;
+	width: 104%;
+}
+.navbar-brand {
+
+	 z-index: 1;
+  }
+
+.navbar-nav.navbar-right .btn {
+	position: relative;
+	z-index: 2;
+	padding: 4px 20px;
+	margin: 10px auto;
+	transition: transform 0.8s; }
+
+.navbar .navbar-collapse { position: relative; overflow: hidden !important; }
+.navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
+
+.navbar .nav-collapse {
+ 	position: absolute;
+	z-index: 1;
+ 	top: 0;
+  left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding-right: 120px;
+	padding-left: 80px;
+	width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: goldenrod; }
+.navbar.navbar-inverse .nav-collapse { background-color: #222; }
+.navbar .nav-collapse .navbar-form {
+	 border-width: 0;
+	 box-shadow: none; }
+.nav-collapse>li { float: right; }
+
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: #4eb980;}
+
+.navbar-nav.navbar-right .btn:not(.collapsed) {
+    background-color: rgb(105,105,105);
+    border-color: rgb(105,105,105);
+    color: rgb(255, 255, 255);
+}
+
+.navbar.navbar-default .nav-collapse,
+.navbar.navbar-inverse .nav-collapse {
+    height: auto !important;
+    transition: transform 0.3s;
+    transform: translate(0px,-50px);
+}
+.navbar.navbar-default .nav-collapse.in,
+.navbar.navbar-inverse .nav-collapse.in {
+    transform: translate(0px,0px);
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; }
+
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+        transform: translate(-100%,0px);
+    }
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+        transform: translate(0px,0px);
+    }
+
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+        transform: translate(0px,-100%);
+    }
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+        transform: translate(0px,0px);
+    }
+}
+
+/*============Fin navbar===========*/
+
 
 /* Containers */
 
