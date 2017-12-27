@@ -9,10 +9,11 @@ html, body{
   background-color: rgba(218,165,32, 0.7);
 }
 .container{
- height: auto;
+  height: auto;
   width: auto;
   border: 1px  white;
   border-radius: 1px;
+  padding: 0;
 
 }
 a{
