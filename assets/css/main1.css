@@ -9,7 +9,7 @@ html, body{
   background-color: rgba(218,165,32, 0.7);
 }
 .container{
-/*  height: 100px;*/
+ height: auto;
   width: auto;
   border: 1px  white;
   border-radius: 1px;
@@ -264,13 +264,17 @@ li{
       background-color: rgba(255,255,255,0.7);
 
 }
-.po li{
+.po1 li{
   margin-top: 5px !important;
-  margin-left: 75px;
+  margin-left: 35px;
 }
 .p1{
   margin-top: 25px;
 
+}
+.p2{
+  margin-top: 28px;
+  margin-left: 65px;
 }
 /*====================== footer ==========*/
 
