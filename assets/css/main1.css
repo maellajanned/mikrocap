@@ -13,7 +13,7 @@ html, body{
   width: auto;
   border: 1px  white;
   border-radius: 1px;
-  padding: 0;
+  padding: 0 0 10px 0;
 
 }
 a{
@@ -24,12 +24,13 @@ a:hover{
 }
 .men1{
   background-color: white;
+
 }
 .men{
   position: absolute;
   border-radius: 2px;
   margin-top: 5px;
-  margin-left: 75px;
+  margin-left: 20px;
   line-height: 10px;
   color: goldenrod;
 }
@@ -38,7 +39,7 @@ a:hover{
 .btn{
 /*height: 45px;
 width: 150px;*/
-margin: 20px 0px 0px 85%;
+margin: 20px 0px 0px 70%;
 /*-webkit-border-radius: 2px;
 -moz-border-radius: 2px;
 border-radius: 2px;*/
@@ -55,15 +56,15 @@ transition:all 0.3s ease 0s;
 background-color:rgba(218, 165, 32, 0.8);
 }
 .btn:hover{
-  background-color: green;
+  background-color: black;
 }
 
 li{
   list-style: none;
 }
 .right{
-  float: right;
-  margin-right: 25px;
+/*  float: right;*/
+  margin-right: 2px;
 }
 #im{
   border:1px solid white;
@@ -151,7 +152,16 @@ li{
     nav.sidebar:hover{
       margin-left: 0px;
     }
-
+  /*  .navbar-default .navbar-nav > .active{
+        color: #000;
+        background: goldenrod;
+    }
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #000;
+        background: goldenrod;
+    }*/
     .forAnimate{
       opacity: 0;
     }
@@ -386,7 +396,8 @@ footer ul li a:hover{
     margin-left: 5px;
 }
 .categories-btn:hover {
-    background-color: #16A085;color: #fff;
+    background-color: black !important;
+    color: #fff;
 }
 
 

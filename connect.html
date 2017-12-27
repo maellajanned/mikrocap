@@ -15,14 +15,19 @@
 </head>
 <body>
   <div class="container ">
-    <div class="col-md-12 men1">
-      <a class="men" href=""><h1>MICROCAP</h1></a>
+    <div class="row men1">
+
+    <div class="col-md-6 men1">
+      <a href=""><h1 style="margin-left:45px;">MICROCAP</h1></a>
+    </div>
+    <div class="col-md-6">
       <ul>
         <!--<button type="button" >Déconnexion</button>-->
         <a href="index1.html" class="btn btn-primary btn-warning">Déconnexion</a>
 
       </ul>
     </div>
+  </div>
     <div class="row">
        <div class="col-test col-md-3 col-sm-6">
            <div class="row">
@@ -31,7 +36,7 @@
                      <li><img src="images/aboudi.jpg" alt="homme" id="im"></li>
                      <li><span style="margin-left:40px; margin-top:55px;color:white;">Casimir ABOUDI</span></li>
                      <li ><a href=""><span class="glyphicon glyphicon-envelope" style="color:white;"></span></a><span> Messagerie 12/301</span></li>
-                     <li class="meter orange animate" style="width:200px;"><span style="width:20%;"></span></li>
+                     <li class="meter meter1 orange animate" style="width:200px;"><span style="width:20%;"></span></li>
                    </ul>
                  </div>
              <div class="col-md-12">
@@ -47,19 +52,10 @@
                </div>
                <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
                  <ul class="nav navbar-nav">
-                   <li class="active"><a href="index1.html">Accueil<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
-                   <li class="dropdown">
-                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profil <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
-                     <ul class="dropdown-menu forAnimate" role="menu">
-                     <!--  <li><a href="{{URL::to('createusuario')}}">Crear</a></li>-->
-                       <li><a href="#">Modifier</a></li>
-                       <li><a href="#">Report</a></li>
-                       <li class="divider"></li>
-                       <li><a href="#">Mes Actifs</a></li>
-                       <li class="divider"></li>
-                       <li><a href="#">Mes Services</a></li>
-                     </ul>
-                   </li>
+                   <li class="active"><a href="connect.html">Accueil<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+                   <li><a href="#">Mes Actifs<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+                   <li><a href="#">Profil<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
+                   <li><a href="#">Mes Services<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>
                    <li ><a href="#">Bourse d'opportunité<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>
                    <li ><a href="#">Ressources<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a></li>
                      <li ><a href="#">Salle de Marché<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></a></li>
@@ -128,18 +124,12 @@
        <div class="col-test col-md-3 col-sm-6">
            <div class="row">
            <div class="col-md-12 p1">
-               <ul class="right">
-                    <li ><input type="date" name="myDateTime"></li>
-                    <li ><span class="">Dernière Connexion</span></li>
-                    <li class="meter1 meter orange animate" style="width:200px;">
-                        <span style="width:10%;"></span>
-                      </li>
-               </ul>
+                    <li><span class="right">Dernière Connexion</span><input type="date" name="myDateTime"></li>
            </div>
        </div>
        <div class="row">
          <div class="col-md-12">
-           <span style="margin-left:105px;">Flux RSS</span>
+           <h4 style="margin-left:105px;">Flux RSS</h4>
            <div class="row">
            <div class="col-lg-8 col-md-8 col-sm-9 col-xs-12 p2">
                    <div class="row">
