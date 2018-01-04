@@ -37,28 +37,38 @@
 
 })(jQuery);
 
+
 $(document).ready(function() {
 
-          //  affix the navbar after scroll below header
-$('#nav').affix({
-     offset: {
-       top: $('header').height()-$('#nav').height()
-     }
-});
+  var toggleAffix = function(affixElement, scrollElement, wrapper) {
 
-//highlight the top nav as scrolling occurs
-$('body').scrollspy({ target: '#nav' })
+    var height = affixElement.outerHeight(),
+        top = wrapper.offset().top;
 
-// smooth scrolling for scroll to top
-$('.scroll-top').click(function(){
- $('body,html').animate({scrollTop:0},1000);
-})
+    if (scrollElement.scrollTop() >= top){
+        wrapper.height(height);
+        affixElement.addClass("affix");
+    }
+    else {
+        affixElement.removeClass("affix");
+        wrapper.height('auto');
+    }
 
-// smooth scrolling for nav sections
-$('#nav .navbar-nav li>a').click(function(){
- var link = $(this).attr('href');
- var posi = $(link).offset().top;
- $('body,html').animate({scrollTop:posi},700);
-});
+  };
+
+
+  $('[data-toggle="affix"]').each(function() {
+    var ele = $(this),
+        wrapper = $('<div></div>');
+
+    ele.before(wrapper);
+    $(window).on('scroll resize', function() {
+        toggleAffix(ele, $(this), wrapper);
+    });
+
+    // init
+    toggleAffix(ele, $(window), wrapper);
   });
+
+});
   /*fin navbar*/
