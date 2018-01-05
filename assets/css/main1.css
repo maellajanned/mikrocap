@@ -218,14 +218,14 @@ li{
 			display: block;
 			height: 100%;
 			background-color: rgb(43,194,83);
-			background-image: -webkit-gradient(
+			/*background-image: -webkit-gradient(
 			  linear,
 			  left bottom,
 			  left top,
 			  color-stop(0, rgb(43,194,83)),
 			  color-stop(1, rgb(84,240,84))
 			 );
-
+*/
 			overflow: hidden;
 		}
 		.meter > span:after, .animate > span > span {
