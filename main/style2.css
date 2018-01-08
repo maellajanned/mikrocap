@@ -1,7 +1,9 @@
 @import url("font-awesome.min.css");
 @import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
-.fa-fw {width: 2em;}
+.fa-fw {
+  width: 2em;
+}
 
 html, body{
   margin: 0;
@@ -12,10 +14,16 @@ html, body{
 
 }
 h1{
-  margin-left: 60px;
+  margin-left: 45px;
 }
-section{
-width: auto;
+
+.mm{
+  border: 1px solid goldenrod;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  border-radius: 2px;
+  height: 65px;
 }
 .container{
   border:0;
@@ -25,6 +33,7 @@ width: auto;
 }
 a{
   text-decoration: none !important;
+  color:black;
 }
 a:hover{
   color: grey;
@@ -43,6 +52,7 @@ li{
 
 .navbar .navbar-collapse {
   position: relative;
+  padding-right: 0 !important;
 }
 .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
 
@@ -73,10 +83,10 @@ li{
     width: 240px;
     height: 40px;
     position: relative;
-    left: 90px;
+    left: 5px;
     float: left;
     line-height: 22px;
-    margin-top: 27px;
+    margin-top: 0px;
 }
 
     .search input {
@@ -104,7 +114,9 @@ li{
     margin-left:180px;
     margin-top:7px;
 }
-
+#imge{
+  margin-top: 25px;
+}
 .imge{
   height: 25px;
   width: 25px;
@@ -112,7 +124,10 @@ li{
   border: 2px solid grey;
   text-align: center;
   margin-left: 15px;
-  margin-top: 10px;
+  margin-top: -4px;
+}
+.imger li{
+  display: inline;
 }
 
 .imge1 img{
@@ -122,7 +137,7 @@ li{
   border-radius: 2px;
 }
 .to1{
-  line-height: 5px;
+  line-height: 3px;
   padding-top: 9px !important;
   padding-left: 7px !important;
 }
@@ -134,13 +149,16 @@ li{
   margin-top: 10px;
   margin-left: 35px;
 }
+.mm2{
+  background-color: goldenrod;
+}
 .men1{
   /*background-color: goldenrod;*/
   margin-top: 5px;
-  width: 100%;
   padding-bottom: 20px;
 
 }
+
 .men{
   position: absolute;
   border-radius: 2px;
@@ -149,8 +167,16 @@ li{
   line-height: 10px;
   color: goldenrod;
 }
-
-
+#mano{
+  margin-top: 5px;
+/*  background-color: goldenrod;*/
+}
+.man{
+  border: 2px solid black;
+  margin-left: 5px;
+  width: 230px;
+  margin-top: 45px;
+}
 /*fin navbar*/
 /*debut flux RSS*/
 article{
@@ -165,18 +191,18 @@ figure img{
 }
 /*fin flux RSS*/
 .po{
-      height: 150px;
-      width: auto;
-      border: 2px solid white;
+      height: 160px;
+      width: 160px;
+      border: 1px solid goldenrod;
       margin: 20px 0 5px 0; /* Just for demo spacing */
       -moz-border-radius: 5px;
       -webkit-border-radius: 5px;
       border-radius: 5px;
-    /*  padding: 10px;*/
+      /*padding: 10px;*/
       -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
       -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
       box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
-      background-color: rgba(255,255,255,0.7);
+      background-color: rgba(255,255,255,0.9);
 
 }
 .po1 li{
@@ -185,13 +211,15 @@ figure img{
 
 }
 .p1{
-  margin-top: 25px;
+  margin-top: 38px;
   margin-left: 56px !important;
 }
 .p2{
-  margin-top: 28px;
+  margin-top: 6px;
   margin-left: 65px;
+
 }
+
 /*====================== footer ==========*/
 
 
@@ -253,3 +281,29 @@ footer ul li a:hover{
 	padding:15px 0 10px 0;
 }
 /*fin footer*/
+/*design milieu*/
+.boxes{
+    border:1px solid goldenrod;
+    margin-bottom: 10px;
+    margin-top: 45px;
+    width: 194px;
+}
+.img-upper{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.description{
+    text-align: justify;
+    padding: 10px;
+}
+
+.description h2{
+   margin-top: 0px;
+    height: 60px;
+    text-align: start;
+}
+img.img-responsive {
+    height: 155px;
+}
+
+/*fin design milieu*/
