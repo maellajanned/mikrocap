@@ -277,6 +277,11 @@ footer ul li a:hover{
 }
 /*fin footer*/
 /*design milieu*/
+.boxes1{
+  border:1px solid goldenrod;
+  margin-top: 45px;
+  width: 194px;
+}
 .boxes{
     border:1px solid goldenrod;
     margin-bottom: 10px;
