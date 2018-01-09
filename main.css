@@ -294,7 +294,7 @@ footer ul li a:hover{
 .boxes1{
   border:1px solid goldenrod;
   margin-top: 45px;
-  width: 194px;
+  width: 605px;
 }
 .boxes{
     border:1px solid goldenrod;
@@ -319,7 +319,41 @@ footer ul li a:hover{
 img.img-responsive {
     height: 155px;
 }
+.lab{
+  margin-top: 10px;
+}
+.lab1{
+  margin-right: 6px;
+}
 .l1{
   text-decoration: underline;
+  color: goldenrod;
+}
+button {
+  border: 0;
+  background-color: goldenrod;
+  border-radius: 10px;
+  padding: 10px 30px 12px;
+  outline: 0;
+  display: inline-block;
+  width: 125px;
+  text-align: left;
+  height: 55px;
+  margin-top: -25px;
+  margin-right: 15px;
+  color:white;
+}
+button:hover, button:active {
+  background: black;
+}
+
+button span {
+  font-size: 22px;
+  position: relative;
+  top: 4px;
+  color: white;
+}
+.lab2{
+  border: 0;
 }
 /*fin design milieu*/

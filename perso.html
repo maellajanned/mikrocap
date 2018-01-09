@@ -8,7 +8,7 @@
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="main/style2.css" />
+    <link rel="stylesheet" href="main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   </head>
   <body>
@@ -64,13 +64,13 @@
     <div class="col-md-3">
         <div class="col-xs-hidden col-md-4" >
             <ul class="nav nav-pills nav-stacked admin-menu man">
-                <li class="active"><a href="perso.html" data-target-id="home" style="color:black;"><i class="fa fa-home fa-fw"></i>Accueil</a></li>
-                <li ><a data-toggle="collapse" data-target="#toggleDemo" data-parent="#sidenav01" class="collapsed">
+                <li class="active"><a href="#" data-target-id="home" style="color:black;"><i class="fa fa-home fa-fw"></i>Accueil</a></li>
+                <li ><a href="#" data-toggle="collapse" data-target="#toggleDemo" data-parent="#sidenav01" class="collapsed">
           <span class="glyphicon glyphicon-cloud c2"></span>Profil<span class="caret pull-right"></span>
           </a>
           <div class="collapse" id="toggleDemo" style="height: 0px;">
             <ul class="nav nav-list">
-              <li><a href="perso.html">Informations Personnelles</a></li>
+              <li><a href="#">Informations Personnelles</a></li>
               <li><a href="#">Profil Entrepreneur</a></li>
               <li><a href="#">Profil Investisseur</a></li>
             </ul>
@@ -86,55 +86,40 @@
     </div>
     <div class="col-md-6">
       <div class="row">
-        <div class="col-hidden-xs col-hidden-sm col-md-1"></div>
-        <div class="col-xs-12 col-sm-12 col-md-5">
+        <div class="col-xs-12 col-sm-12 col-md-12">
           <div class="boxes1">
-              <div class="img-upper">
-                  <img class="img-responsive" src="images/aboudi.jpg">
-              </div>
-
+            <ul>
+              <li><h4 class="l1"> ETAT CIVIL</h4> <button type="button" name="button" class="pull-right">Modifier</button> </li>
+              <li class="lab"><label class="lab1">Nom</label><input type="text" name="nom" value="" class="lab2"></li>
+              <li class="lab"><label class="lab1">Prénom</label><input type="text" name="prenom" value="" class="lab2"></li>
+              <li class="lab"><label class="lab1">Nom Marital</label><input type="text" name="nomM" value="" class="lab2"></li>
+              <li class="lab"><label class="lab1">Date de Naissance</label><input type="text" name="Naissance" value="" class="lab2"></li>
+              <li class="lab"><label class="lab1">pays de Naissance</label><input type="text" name="nom" value="" class="lab2"> <label class="lab1">Ville</label><input type="text" name="ville" value="" class="lab2"> </li>
+              <li class="lab"><label class="lab1">Nationalité</label><input type="text" name="nom" value="" class="lab2"></li>
+            </ul>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-5">
-          <div class="boxes">
-              <div class="description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  </p>
-              </div>
-
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="boxes1">
+            <ul>
+              <li><h4 class="l1"> ADRESSE</h4> <button type="button" name="button" class="pull-right">Modifier</button> </li>
+              <li class="lab"><label class="lab1">Libellé de la Voie</label><input type="text" name="nom" value="" class="lab2"> <label class="lab1">N° dela voie</label><input type="text" name="ville" value="" class="lab2"> </li>
+              <li class="lab"><label class="lab1">Adresse Complémentaire</label><input type="text" name="nom" value="" class="lab2"></li>
+              <li class="lab"><label class="lab1">Code Postale</label><input type="text" name="prenom" value="" class="lab2"></li>
+              <li class="lab"><label class="lab1">Ville</label><input type="text" name="nomM" value="" class="lab2"></li>
+              <li class="lab"><label class="lab1">Région\Etat</label><input type="text" name="Naissance" value="" class="lab2"></li>
+              <li class="lab"><label class="lab1">Pays</label><input type="text" name="nom" value="" class="lab2"></li>
+            </ul>
           </div>
         </div>
-        <div class="col-hidden-xs col-hidden-sm col-md-1"></div>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-4">
-            <div class="boxes">
-                <div class="img-upper">
-                    <img class="img-responsive" src="images/aboudi.jpg">
-                </div>
-                <div class="description">
-                  <a href="perso.html"><h2>Information Personnelle </h2></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 ">
-            <div class="boxes">
-                <div class="img-upper">
-                    <img class="img-responsive" src="images/entrep1.png">
-                </div>
-                <div class="description">
-                  <a href="#"><h2>Profil Entrepreneur</h2></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4">
-            <div class="boxes">
-                <div class="img-upper">
-                    <img class="img-responsive" src="images/invest.jpeg">
-                </div>
-                <div class="description">
-                  <a href="#"><h2>Profil Investisseur </h2></a>
-                </div>
-            </div>
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="boxes1">
+          <ul>
+            <li><h4 class="l1"> Données Financières</h4> <button type="button" name="button" class="pull-right">Modifier</button> </li>
+            <li class="lab"><label class="lab1">IBAN Compte Titre</label><input type="text" name="nom" value="" class="lab2"></li>
+            <li class="lab"><label class="lab1">IBAN Compte Courant associé au Compte Titre</label><input type="text" name="prenom" value="" class="lab2"></li>
+          </ul>
         </div>
       </div>
     </div>
