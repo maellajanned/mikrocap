@@ -1241,7 +1241,10 @@ h3 .small,
   font-size: 65%;
 }
 h4,
-.h4,
+.h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 h5,
 .h5,
 h6,
@@ -4522,6 +4525,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
   background-color: goldenrod;
+  height: 70px;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,

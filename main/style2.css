@@ -10,7 +10,7 @@ html, body{
   border: 0;
   overflow-x:hidden;
   width: 100%;
-/*background-color: rgba(218,165,32, 0.7);*/
+background-color:white;
 
 }
 h1{
@@ -24,7 +24,10 @@ h1{
   border:0;
   margin:0;
   padding: 0 0 10px 0;
-
+}
+.s1{
+  background-color: rgba(220,220,220,0.1);
+  padding-bottom: 35px;
 }
 a{
   text-decoration: none !important;
@@ -294,13 +297,44 @@ footer ul li a:hover{
 .boxes1{
   border:1px solid goldenrod;
   margin-top: 45px;
-  width: 194px;
+  width: 170px;
+  margin-left: 95px;
 }
 .boxes{
     border:1px solid goldenrod;
     margin-bottom: 10px;
     margin-top: 45px;
-    width: 194px;
+    margin-left: 24px;
+    width: 340px;
+    height: 178px;
+}
+.boxes2{
+    border:1px solid goldenrod;
+    margin-bottom: 10px;
+    margin-top: -8px;
+    margin-left: 145px;
+    width: 170px;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+.boxes3{
+    border:1px solid goldenrod;
+    margin-bottom: 10px;
+    margin-top: -8px;
+    margin-left: 121px;
+    width: 170px;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+.boxes4{
+    border:1px solid goldenrod;
+    margin-bottom: 10px;
+    margin-top: -8px;
+    margin-left: 97px;
+    width: 170px;
+    padding-left: 0px;
+    padding-right: 5px;
 }
 .img-upper{
     border-bottom: 1px solid #ccc;

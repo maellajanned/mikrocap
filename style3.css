@@ -27,8 +27,8 @@
   margin: 0px;
   line-height: 35px;
   cursor: pointer;
-  /*
-    .collapsed{
+
+    /*.collapsed{
        .arrow:before{
                  font-family: FontAwesome;
                  content: "\f053";
