@@ -10,7 +10,7 @@ html, body{
   border: 0;
   overflow-x:hidden;
   width: 100%;
-background-color:white;
+  background-color:white;
 
 }
 h1{
@@ -27,7 +27,7 @@ h1{
 }
 .s1{
   background-color: rgba(220,220,220,0.1);
-  padding-bottom: 35px;
+  padding-bottom: 55px;
 }
 a{
   text-decoration: none !important;
@@ -222,8 +222,12 @@ figure img{
   margin-left: 35px;
 
 }
+#p3{
+  position: fixed;
+  right: 75px;
+}
 .p1{
-  margin-top: 38px;
+  margin-top: 45px;
   margin-left: 56px !important;
 }
 .p2{
@@ -244,7 +248,7 @@ footer ul{
     list-style:none;
     margin:0 auto;
     display:inline-block;
-    padding-top:50px;
+    padding-top:20px;
 }
 
 footer ul li{
@@ -316,6 +320,7 @@ footer ul li a:hover{
     width: 170px;
     padding-left: 0px;
     padding-right: 5px;
+    height: 245px;
 }
 
 .boxes3{
@@ -326,6 +331,7 @@ footer ul li a:hover{
     width: 170px;
     padding-left: 0px;
     padding-right: 5px;
+    height: 245px;
 }
 .boxes4{
     border:1px solid goldenrod;
@@ -335,6 +341,7 @@ footer ul li a:hover{
     width: 170px;
     padding-left: 0px;
     padding-right: 5px;
+    height: 245px;
 }
 .img-upper{
     border-bottom: 1px solid #ccc;
@@ -342,7 +349,7 @@ footer ul li a:hover{
 }
 .description{
     text-align: justify;
-    padding: 10px;
+    padding: 2px;
 }
 
 .description h2{

@@ -8,7 +8,9 @@
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main/main1.css"/>
     <link rel="stylesheet" href="main/style2.css" />
+
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   </head>
   <body>
@@ -62,28 +64,71 @@
 <section >
   <div class="container">
     <div class="col-md-3">
-        <div class="col-xs-hidden col-md-4" >
-            <ul class="nav nav-pills nav-stacked admin-menu man">
-                <li class="active"><a href="perso.html" data-target-id="home" style="color:black;"><i class="fa fa-home fa-fw"></i>Accueil</a></li>
-                <li ><a data-toggle="collapse" data-target="#toggleDemo" data-parent="#sidenav01" class="collapsed">
-          <span class="glyphicon glyphicon-cloud c2"></span>Profil<span class="caret pull-right"></span>
-          </a>
-          <div class="collapse" id="toggleDemo" style="height: 0px;">
-            <ul class="nav nav-list">
-              <li><a href="perso.html">Informations Personnelles</a></li>
-              <li><a href="#">Profil Entrepreneur</a></li>
-              <li><a href="#">Profil Investisseur</a></li>
-            </ul>
+      <div class="row affix-row">
+          <div class="col-sm-3 col-md-2 affix-sidebar" >
+          <div class="sidebar-nav"style="left:210px;">
+        <div class="navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <span class="visible-xs navbar-brand">Sidebar menu</span>
           </div>
-                </li>
-                <li><a href="actifs.html" data-target-id="pages" style="color:black;"><i class="fa fa-file-o fa-fw"></i>Actifs</a></li>
-                <li><a href="service.html" data-target-id="charts" style="color:black;"><i class="fa fa-bar-chart-o fa-fw"></i>Services</a></li>
-                <li><a href="opportunite.html" data-target-id="table" style="color:black;"><i class="fa fa-table fa-fw"></i>Bourse d'Opportunité</a></li>
-                <li><a href="ressource.html" data-target-id="forms" style="color:black;"><i class="fa fa-tasks fa-fw"></i>Ressources</a></li>
-                <li><a href="marche.html" data-target-id="calender" style="color:black;"><i class="fa fa-calendar fa-fw"></i>Salle de Marché</a></li>
-              </ul>
-              </div>
+          <div class="navbar-collapse collapse sidebar-navbar-collapse">
+            <ul class="nav navbar-nav" id="sidenav01">
+              <li class="active" style="border:2px solid white;">
+                <a href="#"class="collapsed" style="height:70px;font-size:15px;">
+                <span class="glyphicon glyphicon-home"></span> Accueil</a>
+              </li>
+              <li style="background-color:purple;border:2px solid white;">
+                <a href="#" data-toggle="collapse" data-target="#toggleDemo0" data-parent="#sidenav01" class="collapsed" style="height:70px;font-size:15px;">
+                <span class="glyphicon glyphicon-user" style="height:70px;font-size:15px;"></span>
+                Profil</a>
+                <div class="collapse" id="toggleDemo0" style="height: 0px;">
+                  <ul class="nav nav-list">
+                    <li><a href="#">Information Personelle</a></li>
+                    <li><a href="#">Profile Entrepreneur</a></li>
+                    <li><a href="#">Profil Investisseur</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Messages <span class="badge pull-right">42</span></a></li>
+                  </ul>
+                </div>
+              </li>
+              <li style="background-color:orangered;border:2px solid white;">
+                <a href="#" data-toggle="collapse" data-target="#toggleDemo" data-parent="#sidenav01" class="collapsed" style="height:70px;font-size:15px;">
+                <span class="glyphicon glyphicon-cloud" style="height:70px;font-size:15px;"></span>Actifs
+                </a>
+                <div class="collapse" id="toggleDemo" style="height: 0px;">
+                  <ul class="nav nav-list">
+                    <li><a href="#">Submenu1.1</a></li>
+                    <li><a href="#">Submenu1.2</a></li>
+                    <li><a href="#">Submenu1.3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li style="background-color:teal;border:2px solid white;">
+                <a href="#" data-toggle="collapse" data-target="#toggleDemo2" data-parent="#sidenav01" class="collapsed" style="height:70px;font-size:15px;">
+                <span class="glyphicon glyphicon-inbox"style="height:70px;font-size:15px;"></span> Services
+                </a>
+                <div class="collapse" id="toggleDemo2" style="height: 0px;">
+                  <ul class="nav nav-list">
+                    <li><a href="#">Submenu2.1</a></li>
+                    <li><a href="#">Submenu2.2</a></li>
+                    <li><a href="#">Submenu2.3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li style="background-color:crimson;border:1px solid white;"><a href="#"><span class="glyphicon glyphicon-lock" style="height:70px;font-size:15px;"></span> Bourse d'Opportunité</a></li>
+              <li style="background-color:mediumseagreen;border:1px solid white;"><a href=""><span class="glyphicon glyphicon-cog" style="height:70px;font-size:15px;"></span> PreferencesMenu</a></li>
+            </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+        </div>
     </div>
+  </div>
     <div class="col-md-6">
       <div class="row">
         <div class="col-hidden-xs col-hidden-sm col-md-1"></div>

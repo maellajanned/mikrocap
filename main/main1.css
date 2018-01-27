@@ -1,12 +1,16 @@
 /* make sidebar nav vertical */
+.sidebar-nav{
+      position:fixed;
+      width:242px;
+      margin-top: 43px;
+      left:210px;
+}
+
 @media (min-width: 768px){
   .affix-content .container {
     width: 700px;
   }
-  html,body{
-    height: 100%;
-    overflow: hidden;
-  }
+
     .affix-content .container .page-header{
     margin-top: 0;
   }
@@ -16,12 +20,7 @@
     margin-left: 25px;
 
   }
-  .sidebar-nav{
-        position:fixed;
-        width:242px;
-        margin-top: 45px;
-        left:210px;
-  }
+
   .affix-sidebar{
     padding-right:0;
     font-size:small;
